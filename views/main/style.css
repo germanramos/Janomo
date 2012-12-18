@@ -1,0 +1,35 @@
+#header1 {
+	background-color: red;
+	float: left;
+	width: 80%;
+	height: 15%;
+}
+#changeLanguage1 {
+	background-color: gray;
+	margin-left: 80%;
+	height: 15%;
+}
+#writer1 {
+	background-color: green;
+	float: left;
+	width: 30%;
+	height: 70%;
+}
+#reader1 {
+	background-color: blue;
+	float: left;
+	width: 35%;
+	height: 70%;
+	overflow: auto;
+}
+#reader2{
+	background-color: orange;
+	margin-left: 65%;
+	height: 70%;
+	overflow: auto;
+}
+#footer1 {
+	background-color: yellow;
+	width: 100%;
+	height: 15%;
+}

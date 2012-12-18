@@ -1,0 +1,15 @@
+.janomoModule[name=reader]  p {
+	text-align: center;
+	padding: 10px
+}
+
+.janomoModule[name=reader]  #messageList {
+	background-color: white;
+    height: 70%;
+    margin: 10px;
+    overflow: auto;
+}
+
+.janomoModule[name=reader]  #messageList p{
+	padding: 2px;
+}
