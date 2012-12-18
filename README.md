@@ -36,9 +36,16 @@ High performance framework for modular web application development
 <a name="a3"/>
 ## Instalation
 
-  - Janomo can be executed under any http server with php support like Apache. Just copy the files under root server directory.
-  - Janomo can be executed under NodeJs. Just run 'node main.js' to start the server
-
+Janomo can be executed under any http server with php support like Apache. Just copy the files under root server directory.
+Then, just go to the main view url. For example:
+```url
+http://localhost/janomo/views/main/view.php
+```
+Janomo can be executed under NodeJs. Just run 'node main.js' to start the server.
+Then, just go to the main view url. For example:
+```url
+http://localhost:8080/views/main/view.php
+```
 <a name="a4"/>
 ## Skeleton
 
