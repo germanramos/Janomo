@@ -43,3 +43,26 @@ High performance framework for modular web application development
   - /modules => Directory of modules. Every module is contained in onde directory under here
   - /public => All other stuff and common resources.
 
+<a name="a5"/>
+## Views
+
+  - Every view is a complete html page but with .php extension.
+  - In this file you have to include this basic libraries:
+```html
+<script type="text/javascript" src="../../public/libs/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../../public/libs/janomo.js"></script>
+```
+  - In addition you should include all view files like:
+```jade
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="language_en.js"></script>
+<script type="text/javascript" src="language_es.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+```
+  - Finally you should include all files required by icluded modules (see example)
+  - Every moduule is included with this code:
+```js
+<div class="janomoModule" name="writer" id="writer1">
+  <?php include '../../modules/writer/view.html'; ?>
+</div>
+```
