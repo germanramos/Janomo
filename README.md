@@ -11,7 +11,9 @@ High performance framework for modular web application development
 - [Skeleton](#a4)
 - [Views](#a5)
 - [Modules](#a6)
-- [License](#a7)
+- [Comunnication events](#a7)
+- [Internationalization](#a8)
+- [License](#a9)
 
 <a name="a1"/>
 ## Features
@@ -72,8 +74,24 @@ It is higly recommended to follow the file conventions used in the example. So I
 
 <a name="a6"/>
 ## Modules
+Every module has one html file with the html code to be included in the view wich include de module.
+
+In addition you have the same files of a view:
+- Language files
+- Js file
+- Css file
+
+The best way to get how this files works is to see the example included in the code. It is higly recommended to follow the file conventions used in the example.
 
 <a name="a7"/>
+## Communication events
+The best way to get how comunications events works is to see the writer and reader example modules included in the code.
+
+<a name="a8"/>
+## Internationalization
+The best way to get how internationalization works is to see the example included in the code.
+
+<a name="a9"/>
 ## License
 
 (The MIT License)
