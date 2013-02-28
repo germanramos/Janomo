@@ -5,7 +5,7 @@ var webroot = '.';
   
 var file = new(estatico.Server)(webroot, {
   cache: 600,
-  headers: { 'X-Powered-By': 'node-static' }
+  headers: { 'X-Powered-By': 'Alberto lleva camisa!!!' }
 });
 
 var fs = require('fs');
